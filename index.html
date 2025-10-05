@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TF2 Random Loadout Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>TF2 Random Loadout Generator</h1>
+  
+  <label for="classSelect">Select Class:</label>
+  <select id="classSelect">
+    <option value="Scout">Scout</option>
+    <option value="Soldier">Soldier</option>
+    <option value="Pyro">Pyro</option>
+    <option value="Demoman">Demoman</option>
+    <option value="Heavy">Heavy</option>
+    <option value="Engineer">Engineer</option>
+    <option value="Medic">Medic</option>
+    <option value="Sniper">Sniper</option>
+    <option value="Spy">Spy</option>
+  </select>
+  
+  <button onclick="generateLoadout()">Generate Loadout</button>
+  
+  <div id="result"></div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
